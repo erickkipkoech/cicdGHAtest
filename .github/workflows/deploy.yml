@@ -17,8 +17,8 @@ jobs:
         with:
           dotnet-version: 8.0
       - name: 📦 Restore Dependencies
-        run: dotnet restore ./BookManager/BookManager.csproj
+        run: dotnet restore ./GHActions-CiCd/GHActions-CiCd.csproj
       - name: 🏗️ Build Project
-        run: dotnet build ./BookManager/BookManager.csproj --no-restore
+        run: dotnet build ./GHActions-CiCd/GHActions-CiCd.csproj --no-restore
       - name: ✅ Run Tests
-        run: dotnet test ./BookManager/BookManager.csproj --no-build --verbosity normal
+        run: dotnet test ./GHActions-CiCd/GHActions-CiCd.csproj --no-build --verbosity normal

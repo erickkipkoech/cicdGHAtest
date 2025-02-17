@@ -12,10 +12,10 @@ jobs:
     steps:
       - name: 🛠️ Checkout Repository
         uses: actions/checkout@v4
-      - name: ⚙️ Setup .NET 9 SDK
+      - name: ⚙️ Setup .NET 8 SDK
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: 9.x
+          dotnet-version: 8.0
       - name: 📦 Restore Dependencies
         run: dotnet restore ./BookManager/BookManager.csproj
       - name: 🏗️ Build Project

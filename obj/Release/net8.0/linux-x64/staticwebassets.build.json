@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Un7dNJNLPfWz8z2rs53G08i+F4ElSb77100EbJH2Mpo=",
+  "Source": "GHActions-CiCd",
+  "BasePath": "_content/GHActions-CiCd",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

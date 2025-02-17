@@ -1,0 +1,6 @@
+@GHActions_CiCd_HostAddress = http://localhost:5125
+
+GET {{GHActions_CiCd_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

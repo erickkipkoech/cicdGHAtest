@@ -17,8 +17,8 @@ jobs:
         with:
           dotnet-version: 8.0
       - name: 📦 Restore Dependencies
-        run: dotnet restore ../../GHActions-CiCd/GHActions-CiCd.csproj
+        run: dotnet restore ../../GHActions-CiCd.csproj
       - name: 🏗️ Build Project
-        run: dotnet build ../../GHActions-CiCd/GHActions-CiCd.csproj --no-restore
+        run: dotnet build ../../GHActions-CiCd.csproj --no-restore
       - name: ✅ Run Tests
-        run: dotnet test ../../GHActions-CiCd/GHActions-CiCd.csproj --no-build --verbosity normal
+        run: dotnet test ../../GHActions-CiCd.csproj --no-build --verbosity normal

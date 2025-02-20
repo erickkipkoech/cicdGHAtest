@@ -30,3 +30,5 @@ C:\Users\erick.kipkoech\source\repos\GHActions-CiCd\obj\Release\net8.0\linux-x64
 C:\Users\erick.kipkoech\source\repos\GHActions-CiCd\obj\Release\net8.0\linux-x64\GHActions-CiCd.pdb
 C:\Users\erick.kipkoech\source\repos\GHActions-CiCd\obj\Release\net8.0\linux-x64\GHActions-CiCd.genruntimeconfig.cache
 C:\Users\erick.kipkoech\source\repos\GHActions-CiCd\obj\Release\net8.0\linux-x64\ref\GHActions-CiCd.dll
+C:\Users\erick.kipkoech\source\repos\GHActions-CiCd\bin\Release\net8.0\linux-x64\deployments\ghactions-revision1.json
+C:\Users\erick.kipkoech\source\repos\GHActions-CiCd\obj\Release\net8.0\linux-x64\GHActions-CiCd.sourcelink.json

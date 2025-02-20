@@ -1,6 +1,7 @@
 C:\Users\erick.kipkoech\source\repos\GHActions-CiCd\bin\Release\net8.0\linux-x64\publish\GHActions-CiCd
 C:\Users\erick.kipkoech\source\repos\GHActions-CiCd\bin\Release\net8.0\linux-x64\publish\appsettings.Development.json
 C:\Users\erick.kipkoech\source\repos\GHActions-CiCd\bin\Release\net8.0\linux-x64\publish\appsettings.json
+C:\Users\erick.kipkoech\source\repos\GHActions-CiCd\bin\Release\net8.0\linux-x64\publish\deployments\ghactions-revision1.json
 C:\Users\erick.kipkoech\source\repos\GHActions-CiCd\bin\Release\net8.0\linux-x64\publish\GHActions-CiCd.dll
 C:\Users\erick.kipkoech\source\repos\GHActions-CiCd\bin\Release\net8.0\linux-x64\publish\GHActions-CiCd.deps.json
 C:\Users\erick.kipkoech\source\repos\GHActions-CiCd\bin\Release\net8.0\linux-x64\publish\GHActions-CiCd.runtimeconfig.json

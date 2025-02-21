@@ -1,13 +1,13 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:us-east-1:654654580836:task-definition/ghactions:1",
+    "taskDefinitionArn": "arn:aws:ecs:us-east-1:654654580836:task-definition/cicdtest:1",
     "containerDefinitions": [
         {
-            "name": "ghactions",
-            "image": "654654580836.dkr.ecr.us-east-1.amazonaws.com/cicd/ghactions_test:1.0.0",
+            "name": "cicdtest",
+            "image": "654654580836.dkr.ecr.us-east-1.amazonaws.com/cwm/cicdtest",
             "cpu": 0,
             "portMappings": [
                 {
-                    "name": "ghactions-80-tcp",
+                    "name": "cicdtest-80-tcp",
                     "containerPort": 80,
                     "hostPort": 80,
                     "protocol": "tcp",
@@ -23,7 +23,7 @@
             "logConfiguration": {
                 "logDriver": "awslogs",
                 "options": {
-                    "awslogs-group": "/ecs/ghactions",
+                    "awslogs-group": "/ecs/cicdtest",
                     "mode": "non-blocking",
                     "awslogs-create-group": "true",
                     "max-buffer-size": "25m",
@@ -35,7 +35,7 @@
             "systemControls": []
         }
     ],
-    "family": "ghactions",
+    "family": "cicdtest",
     "executionRoleArn": "arn:aws:iam::654654580836:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
     "revision": 1,
@@ -84,7 +84,7 @@
         "cpuArchitecture": "X86_64",
         "operatingSystemFamily": "LINUX"
     },
-    "registeredAt": "2025-02-18T06:37:12.720Z",
+    "registeredAt": "2025-02-21T07:22:19.238Z",
     "registeredBy": "arn:aws:iam::654654580836:root",
     "enableFaultInjection": false,
     "tags": []

@@ -1,4 +1,11 @@
 {
+    "Statement": [
+        {
+        "Effect": "Allow",
+        "Action": "ecs:RegisterTaskDefinition",
+        "Resource": "arn:aws:ecs:us-east-1:654654580836:task-definition/cicdtest:*"
+        }
+    ],
     "taskDefinitionArn": "arn:aws:ecs:us-east-1:654654580836:task-definition/cicdtest:1",
     "containerDefinitions": [
         {

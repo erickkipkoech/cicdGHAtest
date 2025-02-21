@@ -67,7 +67,7 @@ jobs:
       - name: 🚀 Deploy to Amazon ECS
         uses: aws-actions/amazon-ecs-deploy-task-definition@v2
         with:
-          task-definition: ./deployments/ecs-task-definition.json
+          task-definition: ./deployments/ghactions-revision1.json
           service: cicdtest1
           cluster: cicdtest-cluster
           wait-for-service-stability: true
